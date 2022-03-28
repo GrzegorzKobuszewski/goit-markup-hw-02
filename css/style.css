@@ -1,0 +1,10 @@
+:root {
+    --main-font: font-family: 'Roboto', sans-serif;
+    --secondary-font: font-family: 'Raleway', sans-serif;
+    
+    --main-color: #ff6C00;
+}
+
+.body {
+    --font-family:var(--secondary-font)
+}
