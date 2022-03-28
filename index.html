@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylessheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link 
@@ -14,108 +14,108 @@
 </head>
 
 <body>
-    <header>
-        <a href="#">WebStudio</a>
-        <nav>
-            <ul>
-                <li><a href="#">Agencja</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Kontakt</a></li>
+    <header class="header">
+        <a class="logo-header" href="index.html">WebStudio</a>
+        <nav class="navigation">
+            <ul class="navigation-list">
+                <li><a class="navigation-link" href="#">Agencja</a></li>
+                <li><a class="navigation-link" href="portfolio.html">Portfolio</a></li>
+                <li><a class="navigation-link" href="#">Kontakt</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:48111111111">+48 111 111 111</a></li>
+        <ul class="contact-list">
+            <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="contact-link" href="tel:48111111111">+48 111 111 111</a></li>
         </ul>
     </header>
 
     <main>
         <!-- HERO -->
-        <section>
-            <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-            <button type="button">Zamów usługę</button>
+        <section class="section-hero">
+            <h1 class="section-hero-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+            <button class="button-order" type="button">Zamów usługę</button>
         </section>
 
         <!-- 4x OPISY -->
-        <section>
-            <h2 hidden> Opisy </h2>
-            <ul>
-                <li>
-                    <p>LOREM IPSUM</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+        <section class="section-discription">
+            <h2 class="section-discription-title" hidden> Opisy </h2>
+            <ul class="discription-list">
+                <li class="discription-list-item">
+                    <p class="discription-list-item-title">LOREM IPSUM</p>
+                    <p class="discription-list-item-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
                 </li>
-                <li>
-                    <p>LOREM IPSUM</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+                <li class="discription-list-item">
+                    <p class="discription-list-item-title">LOREM IPSUM</p>
+                    <p class="discription-list-item-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
                 </li>
-                <li>
-                    <p>LOREM IPSUM</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+                <li class="discription-list-item">
+                    <p class="discription-list-item-title">LOREM IPSUM</p>
+                    <p class="discription-list-item-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
                 </li>
-                <li>
-                    <p>LOREM IPSUM</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+                <li class="discription-list-item">
+                    <p class="discription-list-item-title">LOREM IPSUM</p>
+                    <p class="discription-list-item-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
                 </li>
             </ul>
         </section>
 
         <!-- O NAS -->
-        <section>
-            <h2>
+        <section class="section-about-us">
+            <h2 class="section-about-us-title">
                 Czym się zajmujemy
             </h2>
-            <ul>
-                <li><img src="./images/what-we-do-01.jpg" alt="Laptop, pisanie na klawiaturze" width="370" height="294"></li>
-                <li><img src="./images/what-we-do-02.jpg" alt="Używanie telefonu przy komputerze" width="370" height="294"></li>
-                <li><img src="./images/what-we-do-03.jpg" alt="Praca na tablecie, paleta barw, dobieranie kolorów" width="370" height="294"></li>
+            <ul class="about-us-list">
+                <li class="about-us-item"><img class="about-us-item-img" src="./images/what-we-do-01.jpg" alt="Laptop, pisanie na klawiaturze" width="370" height="294"></li>
+                <li class="about-us-item"><img class="about-us-item-img" src="./images/what-we-do-02.jpg" alt="Używanie telefonu przy komputerze" width="370" height="294"></li>
+                <li class="about-us-item"><img class="about-us-item-img" src="./images/what-we-do-03.jpg" alt="Praca na tablecie, paleta barw, dobieranie kolorów" width="370" height="294"></li>
             </ul>
         </section>
 
         <!-- ZESPÓŁ CZŁONKOWIE -->
-        <section>
-            <h2>
+        <section class="section-team" >
+            <h2 class="section-team-title">
                 Nasz zespół
             </h2>
-            <ul>
-                <li>
-                    <img src="./images/person-01.jpg" alt="Uśmiechnięty mężczyzna w okularach" width="270" height="260">
-                    <h3>John Doe</h3>
-                    <p>Product Designer</p>
+            <ul class="section-team-list">
+                <li class="section-team-item">
+                    <img class="section-team-img" src="./images/person-01.jpg" alt="Uśmiechnięty mężczyzna w okularach" width="270" height="260">
+                    <h3 class="section-team-name">John Doe</h3>
+                    <p class="section-team-p">Product Designer</p>
+                </li>
+                <li class="section-team-item">
+                    <img class="section-team-img" src="./images/person-02.jpg" alt="Uśmiechnięta kobieta w okularach, blondynka" width="270" height="260">
+                    <h3 class="section-team-name">John Doe</h3>
+                    <p class="section-team-p">Frontend Developer</p>
+                </li>
+                <li class="section-team-item">
+                    <img class="section-team-img" src="./images/person-03.jpg" alt="Uśmiechnięty mężczyzna w niebieskiej koszuli" width="270" height="260">
+                    <h3 class="section-team-name">John Doe</h3>
+                    <p class="section-team-p">Marketing</p>
                 </li>
                 <li>
-                    <img src="./images/person-02.jpg" alt="Uśmiechnięta kobieta w okularach, blondynka" width="270" height="260">
-                    <h3>John Doe</h3>
-                    <p>Frontend Developer</p>
-                </li>
-                <li>
-                    <img src="./images/person-03.jpg" alt="Uśmiechnięty mężczyzna w niebieskiej koszuli" width="270" height="260">
-                    <h3>John Doe</h3>
-                    <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="./images/person-04.jpg" alt="Uśmiechnięty mężczyzna w czarnym T-shircie" width="270" height="260">
-                    <h3>John Doe</h3>
-                    <p>UI Designer</p>
+                    <img class="section-team-img" src="./images/person-04.jpg" alt="Uśmiechnięty mężczyzna w czarnym T-shircie" width="270" height="260">
+                    <h3 class="section-team-name">John Doe</h3>
+                    <p class="section-team-p">UI Designer</p>
                 </li>
             </ul>
         </section>
 
     </main>
 
-    <footer>
+    <footer class="footer">
 
-        <a href="#">WebStudio</a>
+        <a class="logo-footer" href="index.html">WebStudio</a>
         
         <address>
-            <ul>
-                <li>
-                    <a href="https://goo.gl/maps/ernnG9uicjJtaxMD9" target="blank">m. Warszawa, Aleje Jerozolimskie 21</a>
+            <ul class="adress">
+                <li class="adress-list">
+                    <a class="adress-link" href="https://goo.gl/maps/ernnG9uicjJtaxMD9" target="blank">m. Warszawa, Aleje Jerozolimskie 21</a>
                 </li>
                 <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a class="adress-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a href="tel:+48111111111">+48 111 111 111</a>
+                    <a class="adress-link" href="tel:+48111111111">+48 111 111 111</a>
                 </li>
             </ul>  
         </address>

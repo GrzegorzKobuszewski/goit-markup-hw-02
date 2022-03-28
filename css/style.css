@@ -5,6 +5,10 @@
     --main-color: #ff6C00;
 }
 
-.body {
-    --font-family:var(--secondary-font)
+body {
+    --font-family:var(--main-font)
 }
+
+.href {color: red;}
+
+text {color: #005533}
